@@ -1,0 +1,27 @@
+.card {
+  width: 204px;
+  height: 384px;
+  border: 1px dotted #d9cdcd;
+  float: left;
+  margin: 10px;
+  padding: 8px;
+}
+.h-center {
+  text-align: center;
+}
+.card-desc {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.card-price{
+    background-color: #F7E788;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    min-width: 60px;
+    width:auto;
+    border:2px solid #D3B000;
+    border-radius: 12px;
+}

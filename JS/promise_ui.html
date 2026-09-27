@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+    <style>
+        .block{
+            width: 500px;
+            height: 200px;
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 10px;
+        }
+        .success{
+            color: green;
+        }
+        .danger{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <h3>Promise Resolved</h3>
+        <div id="promise1_container">
+            <h1>Loading...</h1>
+        </div>
+    </div>
+
+    <div class="block">
+        <h3>Promise Reject</h3>
+        <div id="promise2_container">
+            <h1>Loading...</h1>
+        </div>
+    </div>
+
+    <div class="block">
+        <h3>Random - Resolve or Reject with Finally</h3>
+        <div id="promise3_container">
+            <h1>Loading...</h1>
+        </div>
+        <div id="finally_container">
+
+        </div>
+    </div>
+
+
+    <script src="promise_ui.js"></script>
+</body>
+</html>

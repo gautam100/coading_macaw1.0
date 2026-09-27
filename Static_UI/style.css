@@ -1,0 +1,39 @@
+#root{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.header1{
+    width: 1190px;
+    height: 80px;
+    background-color: #87B461;
+    padding: 10px;
+    text-align: center;
+}
+#content-area{
+    display: flex;
+    flex-direction: row;
+    width: 1190px;
+    min-height: 340px;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: 0px solid #000;
+    background-color: #ABCD69;
+}
+.card{
+    width: 364px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #AAE3AA;
+    height: 300px;
+    /*float: left;*/
+    flex: 1;
+}
+
+.footer1{
+    background-color: #4B4B4B;
+    width: 1190px;
+    height: 210px;
+    padding: 10px;
+    color: #FFF;
+}
