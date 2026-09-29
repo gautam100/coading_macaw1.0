@@ -1,1 +1,2 @@
 A b c d
+This is a text file to demostrate git.
